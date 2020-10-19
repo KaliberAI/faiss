@@ -111,15 +111,23 @@ and run
   `./misc/test_blas`
 
 
+Building Demos
+--------------
+
+To build the demos
+```
+$ cd demos
+$ mkdir build && cd build
+$ cmake ..
+$ make
+```
+
 Testing Faiss
 -------------
 
 A basic usage example is in
 
   `demos/demo_ivfpq_indexing`
-
-which you can build by calling
-  `make demo_ivfpq_indexing`
 
 It makes a small index, stores it and performs some searches. A normal
 runtime is around 20s. With a fast machine and Intel MKL's BLAS it
