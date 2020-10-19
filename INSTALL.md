@@ -111,17 +111,6 @@ and run
   `./misc/test_blas`
 
 
-Building Demos
---------------
-
-To build the demos
-```
-$ cd demos
-$ mkdir build && cd build
-$ cmake ..
-$ make
-```
-
 Testing Faiss
 -------------
 
